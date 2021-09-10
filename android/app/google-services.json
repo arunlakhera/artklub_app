@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "688330474375",
+    "project_id": "artklub-e8715",
+    "storage_bucket": "artklub-e8715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688330474375:android:b3ee6c89804c8d052d4922",
+        "android_client_info": {
+          "package_name": "com.artklub.artklub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688330474375-an9993ro94v23jm52l3pn9d4v7b7bh9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artklub.artklub",
+            "certificate_hash": "e99a9766b80cbcd08c951e5871c86cf5430d7202"
+          }
+        },
+        {
+          "client_id": "688330474375-qv6c07fpgu6l9btallvmcg9ib61rrjv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwIiyQ8tu79p5tZr0X6kTmSzm7kZ-DNnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688330474375-qv6c07fpgu6l9btallvmcg9ib61rrjv5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688330474375-ja2oqv2a6ojte0bc9uotv7ejv9l2gbv9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.artklub.artklub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+name: artklub
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  flutter_native_splash: ^1.2.1 # Added for splash screen
+  page_transition: ^2.0.2 # Added for Page Transition Animation
+  font_awesome_flutter: ^9.1.0 # Added for icons
+  #fancy_bar: ^2.0.0
+  bottom_navy_bar: ^6.0.0
+  dots_indicator: ^2.0.0
+  animated_text_kit: ^4.2.1
+  custom_picker: ^0.0.4
+  carousel_slider: ^4.0.0
+  fancy_drawer: ^2.0.0
+  permission_handler: ^8.1.4+2
+  image_picker: ^0.8.3+3
+
+  # Firebase
+  firebase_core: ^1.6.0
+  firebase_auth: ^3.1.0
+  cloud_firestore: ^2.5.1
+  firebase_storage: ^10.0.3
+
+  # State Management
+  provider: ^6.0.0
+  rflutter_alert: ^2.0.4
+  flutter_easyloading: ^3.0.3
+  flutter_launcher_icons: "^0.9.1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/artklub_icon.png"
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Sail
+      fonts:
+        - asset: assets/fonts/Sail-Regular.ttf
+
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Bold.ttf
+
+        - asset: assets/fonts/Quicksand-Light.ttf
+
+        - asset: assets/fonts/Quicksand-Medium.ttf
+
+        - asset: assets/fonts/Quicksand-Regular.ttf
+
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
